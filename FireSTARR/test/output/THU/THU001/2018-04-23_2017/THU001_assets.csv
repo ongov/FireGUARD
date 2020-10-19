@@ -1,0 +1,18 @@
+Layer,Type,Zone,Basemap,Easting,Northing,Direction,Distance (m),Avg %,Max %,Description
+Timber,Polygon,16,33535,330725,5358481,N/A,0,100.0,100.0,Lakehead Forest
+Reserve,Polygon,16,33535,330725,5358481,N,221,0.0,0.0,
+Building,Point,16,33535,,,NE,1271,0.0,0.0,2795 matches
+Forest processing,Point,16,32535,328793,5358163,W,1958,0.0,0.0,Pulp / Paper / Paperboard
+Airport,Polygon,16,33535,330725,5358481,ESE,2248,0.0,0.0,Airport
+Tower,Point,16,32536,328802,5360096,NW,2511,0.0,0.0,
+Building,Point,16,33536,,,NNE,2522,0.0,0.0,3969 matches
+Building,Point,16,32535,,,W,2561,0.0,0.0,1856 matches
+Building,Point,16,32536,,,NW,3315,0.0,0.0,461 matches
+Tower,Point,16,33536,333205,5361155,NE,3647,0.0,0.0,
+Forest processing,Point,16,33535,334416,5358614,E,3693,0.0,0.0,Sawmill - Large
+Tower lup,Polygon,16,33535,330725,5358481,W,4007,0.0,0.0,
+Fire facility,Point,16,32536,,,NW,4257,0.0,0.0,4 matches
+Fuel cache,Point,16,32536,327297,5361054,NW,4286,0.0,0.0,Thunder Bay FMH/Airport
+Fire comm tower,Point,16,32536,327268,5361077,NW,4323,0.0,0.0,Thunder Bay
+Tower,Point,16,32536,327268,5361077,NW,4323,0.0,0.0,
+Structure lup,Polygon,16,33535,330725,5358481,WSW,5536,0.0,0.0,Registered Plan No. 55R-3364

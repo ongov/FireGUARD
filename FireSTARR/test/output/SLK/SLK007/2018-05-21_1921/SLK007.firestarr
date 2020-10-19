@@ -1,0 +1,12 @@
+[Simulation]
+fire = SLK007
+day = 2018-05-21
+latitude = 51.219
+longitude = -90.2008
+output_directory = C:\FireGUARD\FireSTARR_dev\test\output
+current_size = 0
+start_time = 19:21
+run_output = SLK\SLK007\2018-05-21_1921
+outbase = C:\FireGUARD\FireSTARR_dev\test
+year = 2018
+

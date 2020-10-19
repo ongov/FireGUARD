@@ -1,0 +1,64 @@
+Layer,Type,Zone,Basemap,Easting,Northing,Direction,Distance (m),Avg %,Max %,Description
+Reserve,Polygon,15,69567,695475,5677902,N/A,0,18.6,18.6,
+Building,Point,15,69567,,,WNW,1581,2.4,4.3,71 matches
+Tower,Point,15,69567,693487,5678560,WNW,2094,2.4,2.4,
+Tower,Point,15,69567,694129,5675249,SSW,2975,0.7,0.7,
+Main base tourist lodge,Polygon,15,69567,695475,5677902,N,5159,0.0,0.0,Easting 694489 Northing 5672862           Osnaburgh Lake    West side of Hwy 599   Far North Value
+Building,Point,15,70568,700915,5680321,ENE,5952,0.0,0.0,Cabin
+Fishing access,Point,15,69567,693754,5672202,SSW,5953,0.0,0.0,Boat Launch
+Recreation,Point,15,69567,693754,5672202,SSW,5953,0.0,0.0,Lake St Joseph  Just off Hwy 599v             Basemap 69567  East:693951   North:5672205  Block 32 Sublock92  Zone 15N
+Prov park waterway,Polygon,15,69567,695475,5677902,NW,8406,0.0,0.0,ALBANY RIVER PROVINCIAL PARK
+Main base tourist lodge,Polygon,15,69567,695475,5677902,NNE,8791,0.0,0.0,Base Map: 69567 Block: 10 Sub Block: 41 Easting: 691400 Block: 5670100 Wildlife Management Unit: 16B Lake St. Joseph
+Timber,Polygon,15,69567,695475,5677902,NNW,10230,0.0,0.0,Caribou Forest
+Recreation,Point,15,69566,697741,5667902,S,10253,0.0,0.0,
+Main base tourist lodge,Polygon,15,69567,695475,5677902,NNE,10285,0.0,0.0,Base Map: 69566 Block: 18 Sub Block: 24 Easting: 691200 Northing: 5668400 Wildlife Management Unit: 16B. Lake St. Joseph
+Reserve,Polygon,15,69567,695475,5677902,NNE,10550,0.0,0.0,
+Building,Point,15,69566,,,S,13214,0.0,0.0,57 matches
+Recreation,Point,15,69569,698638,5690873,NNE,13350,0.0,0.0,JEAN LAKE
+Recreation,Point,15,69569,698292,5691199,NNE,13590,0.0,0.0,JEAN LAKE
+Structure lup,Polygon,15,69567,695475,5677902,S,15477,0.0,0.0,"UNNAMED LK S OF PICKLE LK, E SIDE HWY599"
+Building,Point,15,70568,707404,5688406,NE,15892,0.0,0.0,Cabin
+Building,Point,15,69569,693359,5693937,N,16172,0.0,0.0,Cabin
+Building,Point,15,68566,,,SSW,16348,0.0,0.0,10 matches
+Cottage,Polygon,15,69567,,,ENE,19219,0.0,0.0,8 matches
+Building,Point,15,69565,692545,5657197,S,20909,0.0,0.0,Cabin
+Building,Point,15,68565,683638,5659662,SW,21743,0.0,0.0,
+Building,Point,15,68565,683663,5659635,SW,21752,0.0,0.0,
+Building,Point,15,68565,686540,5657302,SSW,22453,0.0,0.0,Cabin
+Mine,Polygon,15,69567,695475,5677902,SSW,23078,0.0,0.0,"Mine, Shaft"
+Airport,Polygon,15,69567,695475,5677902,S,24233,0.0,0.0,Airport
+Fire facility,Point,15,69570,693179,5703435,N,25633,0.0,0.0,Attack Base
+Fire facility,Point,15,69570,693179,5703435,N,25633,0.0,0.0,Secondary Tanker Base
+Fuel cache,Point,15,69570,693154,5703455,N,25656,0.0,0.0,Pickle Lake AB
+Building,Point,15,67565,677891,5656837,SW,27439,0.0,0.0,
+Building,Point,15,67565,677882,5656793,SW,27478,0.0,0.0,
+Airport,Polygon,15,69567,695475,5677902,S,27493,0.0,0.0,Seaplane Base
+Building,Point,15,69570,,,N,27759,0.0,0.0,246 matches
+Recreation,Point,16,30567,304376,5677544,E,27928,0.0,0.0,
+Fishing access,Point,15,69570,694373,5705884,N,28001,0.0,0.0,Boat Launch
+Tower,Point,15,69570,695391,5706174,N,28270,0.0,0.0,
+Trap cabin,Point,15,67569,673924,5696929,NW,28748,0.0,0.0,Kapkichi Lake
+Fire comm tower,Point,15,69570,696399,5706794,N,28904,0.0,0.0,Pickle Lake
+Fire comm tower,Point,15,69570,696267,5706826,N,28932,0.0,0.0,Pickle Lake
+Tower,Point,15,69570,696273,5706868,N,28975,0.0,0.0,
+Tower,Point,15,69570,697545,5708615,N,30780,0.0,0.0,
+Outpost tourist,Polygon,15,69567,695475,5677902,WNW,30979,0.0,0.0,"Base Map: 30566 Block: 21 Sub Block: 32 Zone: 16 Easting: 302300 Northing: 5661200 Wildlife Management Unit: 16B, FRI Base Map: 511894.  Lowry Lake."
+Building,Point,16,30566,302269,5661505,ESE,31181,0.0,0.0,
+Building,Point,15,68570,683990,5708061,NNW,32270,0.0,0.0,
+Building,Point,15,68570,684546,5708515,NNW,32503,0.0,0.0,
+Building,Point,15,68570,683380,5708497,NNW,32897,0.0,0.0,
+Recreation,Point,16,30565,305188,5657912,SE,35640,0.0,0.0,Misehkow RiverBM 30565
+Building,Point,15,66566,,,WSW,36444,0.0,0.0,4 matches
+Outpost commercial lup,Polygon,15,69567,695475,5677902,ENE,36468,0.0,0.0,Lake St. Joseph
+Outpost tourist,Polygon,15,69567,695475,5677902,ENE,36503,0.0,0.0,Base Map: 66566 Block: 20 Sub Block: 58 Easting: 662500 Northing: 5660800 Wildlife Management Unit: 16B Lake St. Joseph
+Recreation,Point,16,30565,307253,5658387,ESE,37056,0.0,0.0,Misehkow RiverBM 30565
+Recreation,Point,15,65568,659345,5688777,WNW,37732,0.0,0.0,
+Building,Point,15,65568,652993,5686273,WNW,43300,0.0,0.0,Cabin
+Recreation,Point,16,31566,318646,5668117,ESE,43550,0.0,0.0,UTM - 3112E  56607NBelow Coles Lake to Iron FallsMisehkow River
+Recreation,Point,16,31565,314308,5656336,ESE,44113,0.0,0.0,August LakeBM 31565
+Recreation,Point,16,31565,316427,5657835,ESE,45221,0.0,0.0,August Lake
+Building,Point,16,32566,320980,5668974,E,45616,0.0,0.0,Cabin
+Prov park wilderness,Polygon,15,69567,695475,5677902,WNW,47094,0.0,0.0,WABAKIMI PROVINCIAL PARK
+Recreation,Point,15,64568,645026,5680746,W,50531,0.0,0.0,DEMPSTER LAKE
+Outpost tourist,Polygon,15,69567,695475,5677902,ESE,52306,0.0,0.0,WRIGHT LAKE                              BASEMAP64568  BLOCK49  SUBBLOCK 45    EASTING 6444    NORTHING 56895            FRI BASEMAP 513904                                     WMU 16B
+Building,Point,15,64568,644462,5689519,WNW,52321,0.0,0.0,

@@ -1,0 +1,45 @@
+Layer,Type,Zone,Basemap,Easting,Northing,Direction,Distance (m),Avg %,Max %,Description
+Reserve,Polygon,16,36584,363448,5847148,S,8265,7.9,7.9,
+Recreation,Point,16,39584,394499,5842299,E,31434,1.4,1.4,
+Airport,Polygon,16,36584,363448,5847148,W,32364,1.1,1.1,Airport
+Waste mgmt,Polygon,16,36584,363448,5847148,WNW,37555,0.5,0.5,
+Building,Point,16,39584,,,E,34448,0.0,0.1,144 matches
+Reserve,Polygon,16,36584,363448,5847148,SE,13477,0.0,0.0,
+Trap cabin,Point,16,38585,383999,5853999,ENE,21668,0.0,0.0,Winisk River
+Airport,Polygon,16,36584,363448,5847148,SE,22584,0.0,0.0,Airport
+Fire comm tower,Point,16,34586,345880,5862915,NW,23609,0.0,0.0,Wunnumin
+Tower,Point,16,34586,345880,5862915,NW,23609,0.0,0.0,
+Fuel cache,Point,16,34586,346037,5863259,NW,23724,0.0,0.0,Wunnumin Lake
+Building,Point,16,34586,,,NW,26889,0.0,0.0,161 matches
+Prov park waterway,Polygon,16,36584,363448,5847148,ESE,27296,0.0,0.0,PIPESTONE RIVER PROVINCIAL PARK
+Recreation,Point,16,39585,390521,5855086,ENE,28219,0.0,0.0,
+Recreation,Point,16,39584,392687,5849718,E,29358,0.0,0.0,"South shore, point on esker"
+Trap cabin,Point,16,39585,392999,5854999,ENE,30583,0.0,0.0,Winisk River
+Recreation,Point,16,39585,393999,5851999,E,30941,0.0,0.0,Esker on East Shore
+Fuel cache,Point,16,39584,395821,5841414,E,32884,0.0,0.0,Summer Beaver
+Fire comm tower,Point,16,39584,397437,5844953,E,34067,0.0,0.0,Summer Beaver
+Tower,Point,16,39584,397454,5844919,E,34087,0.0,0.0,
+Trap cabin,Point,16,39586,393999,5864000,ENE,34898,0.0,0.0,Muchmore Lake
+Trap cabin,Point,16,39586,393299,5868299,NE,36593,0.0,0.0,Muchmore Lake
+Trap cabin,Point,16,40585,400899,5853699,ENE,38029,0.0,0.0,
+Trap cabin,Point,16,40585,406999,5853999,E,44097,0.0,0.0,Winisk River
+Trap cabin,Point,16,40585,409999,5858999,ENE,48048,0.0,0.0,Bradden Lake
+Trap cabin,Point,16,41584,411699,5841100,E,48641,0.0,0.0,
+Trap cabin,Point,16,40583,409999,5831000,ESE,49284,0.0,0.0,Sagiminnis Lake
+Trap cabin,Point,16,41585,,,ENE,51610,0.0,0.0,4 matches
+Trap cabin,Point,16,41582,411299,5821300,ESE,54399,0.0,0.0,
+Trap cabin,Point,16,41584,417999,5848999,E,54596,0.0,0.0,Larocque Lake
+Recreation,Point,16,42585,421399,5857099,ENE,58815,0.0,0.0,
+Recreation,Point,16,42583,421199,5831899,ESE,59746,0.0,0.0,
+Trap cabin,Point,16,41586,419299,5868800,ENE,59916,0.0,0.0,
+Recreation,Point,16,42586,421199,5868699,ENE,61657,0.0,0.0,
+Recreation,Point,16,42583,423799,5832099,ESE,62215,0.0,0.0,
+Trap cabin,Point,16,42583,,,E,63844,0.0,0.0,4 matches
+Trap cabin,Point,16,42585,428399,5851699,E,65128,0.0,0.0,
+Trap cabin,Point,16,42586,426899,5863899,ENE,65642,0.0,0.0,
+Recreation,Point,16,42585,428299,5859599,ENE,66053,0.0,0.0,
+Recreation,Point,16,42587,424699,5873299,ENE,66618,0.0,0.0,Northwest shore of No Name Lake.
+Trap cabin,Point,16,42585,429999,5853999,E,66921,0.0,0.0,
+Building,Point,16,42583,428859,5831246,ESE,67333,0.0,0.0,Cabin
+Outpost commercial lup,Polygon,16,36584,363448,5847148,WSW,71858,0.0,0.0,Wapikopa Lake - Northeast End
+Trap cabin,Point,16,43586,432199,5868199,ENE,71921,0.0,0.0,

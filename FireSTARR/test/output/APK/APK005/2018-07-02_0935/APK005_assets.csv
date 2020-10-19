@@ -1,0 +1,26 @@
+Layer,Type,Zone,Basemap,Easting,Northing,Direction,Distance (m),Avg %,Max %,Description
+Prov park natural,Polygon,17,68506,681805,5066415,N/A,0,100.0,100.0,ALGONQUIN PROVINCIAL PARK (NATURAL ENVIRONMENT CLASS)
+Timber,Polygon,17,68506,681805,5066415,N/A,0,100.0,100.0,Algonquin Park Forest
+Recreation,Point,17,68506,,,ESE,3320,0.0,0.5,48 matches
+Recreation,Point,17,68507,,,NNE,7674,0.0,0.0,45 matches
+Recreation,Point,17,68505,,,SSE,7907,0.0,0.0,20 matches
+Recreation,Point,17,67507,,,NW,8812,0.0,0.0,4 matches
+Recreation,Point,17,67505,,,SW,9247,0.0,0.0,16 matches
+Recreation,Point,17,67506,,,WSW,10130,0.0,0.0,32 matches
+Building,Point,17,68507,686390,5077739,NNE,12216,0.0,0.0,
+Recreation,Point,17,66506,,,WSW,12842,0.0,0.0,11 matches
+Significant,Polygon,17,68506,,,S,12883,0.0,0.0,21 matches
+Recreation,Point,17,66507,668712,5070704,WNW,13778,0.0,0.0,Sittingman Lake
+Recreation,Point,17,66507,668592,5070895,WNW,13952,0.0,0.0,Sittingman Lake
+Recreation,Point,17,69506,,,E,14845,0.0,0.0,28 matches
+Recreation,Point,17,69507,,,ENE,15494,0.0,0.0,26 matches
+Building,Point,17,69507,,,ENE,15900,0.0,0.0,8 matches
+Recreation,Point,17,69505,698954,5059223,ESE,18594,0.0,0.0,
+Outpost tourist,Polygon,17,68506,681805,5066415,WSW,21200,0.0,0.0,
+Recreation,Point,17,70507,,,ENE,21494,0.0,0.0,19 matches
+Recreation,Point,17,70506,,,E,22981,0.0,0.0,83 matches
+Recreation,Point,17,70505,,,ESE,23595,0.0,0.0,13 matches
+Recreation,Point,17,71506,,,E,28603,0.0,0.0,9 matches
+Research,Polygon,17,68506,681805,5066415,W,28790,0.0,0.0,Location area contains two separate research plots.
+Research,Polygon,17,68506,681805,5066415,W,28815,0.0,0.0,Location area contains two separate research plots.
+Recreation,Point,17,70508,709493,5081177,ENE,31375,0.0,0.0,Lake Lavieille

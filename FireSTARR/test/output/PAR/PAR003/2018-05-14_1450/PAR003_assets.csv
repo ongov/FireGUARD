@@ -1,0 +1,10 @@
+Layer,Type,Zone,Basemap,Easting,Northing,Direction,Distance (m),Avg %,Max %,Description
+Building,Point,17,60497,,,WSW,1357,0.1,100.0,979 matches
+Timber,Polygon,17,60497,605757,4973147,WNW,1833,0.0,0.0,French-Severn Forest
+Structure lup,Polygon,17,60497,605757,4973147,SSW,1865,0.0,0.0,Rec Camp with Trustee
+Fishing access,Point,17,60497,605558,4971253,S,1905,0.0,0.0,Boat Launch
+Recreation,Point,17,60497,605558,4971253,S,1905,0.0,0.0,"Simcoe Co., Severn Twp, Big Chute Rd. @ Tea Lake Marina"
+Fishing access,Point,17,60497,604619,4971094,SSW,2348,0.0,0.0,Boat Launch
+Structure lup,Polygon,17,60497,605757,4973147,ESE,2558,0.0,0.0,
+Prov park nature reserve,Polygon,17,60497,605757,4973147,SE,2735,0.0,0.0,GIBSON RIVER PROVINCIAL PARK (NATURE RESERVE CLASS)
+Building,Point,17,61497,,,ESE,4698,0.0,0.0,11 matches

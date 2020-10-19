@@ -1,0 +1,240 @@
+Layer,Type,Zone,Basemap,Easting,Northing,Direction,Distance (m),Avg %,Max %,Description
+Prov park wilderness,Polygon,17,55525,553436,5258423,N/A,0,100.0,100.0,LADY EVELYN-SMOOTHWATER PROVINCIAL PARK (WILDERNESS CLASS)
+Significant,Polygon,17,55525,554141,5253655,N/A,0,100.0,100.0,
+Timber,Polygon,17,55525,553436,5258423,N/A,0,100.0,100.0,Temagami Forest
+Timber,Polygon,17,56526,563331,5261766,N/A,0,100.0,100.0,Timiskaming Forest
+Recreation,Point,17,55525,,,NW,338,24.8,100.0,15 matches
+Recreation,Point,17,55526,,,NW,382,26.0,100.0,9 matches
+Significant,Polygon,17,55525,551851,5253931,WNW,576,100.0,100.0,
+Building,Point,17,55525,,,N,1295,89.4,100.0,17 matches
+Recreation,Point,17,54525,,,N,2371,9.9,100.0,27 matches
+Building,Point,17,56526,,,NE,5297,15.4,76.7,5 matches
+Structure lup,Polygon,17,54524,,,S,23350,3.0,29.6,11 matches
+Tower,Point,17,55524,550195,5248397,S,2146,17.8,17.8,
+Tower,Point,17,55524,550213,5248347,S,2198,17.6,17.6,
+Building,Point,17,55524,,,SSE,7145,2.2,17.6,9 matches
+Prov park waterway,Polygon,17,54525,549005,5256645,SSE,5995,14.0,14.0,MAKOBE-GRAYS RIVER PROVINCIAL PARK (WATERWAY CLASS)
+Recreation,Point,17,53525,,,WNW,5394,1.5,13.3,17 matches
+Recreation,Point,17,54526,,,NNW,8487,4.8,12.4,10 matches
+Recreation,Point,17,53524,,,W,4652,2.2,10.8,13 matches
+Recreation,Point,17,54524,,,SSE,3180,2.1,9.7,19 matches
+Recreation,Point,17,55524,,,SE,8425,0.4,5.8,32 matches
+Building,Point,17,53524,535269,5247911,W,5362,4.3,4.3,
+Main base tourist lodge,Polygon,17,56525,,,NW,26513,0.2,3.2,16 matches
+Recreation,Point,17,56526,,,NNE,4857,1.4,3.1,6 matches
+Fishing access,Point,17,53524,536936,5245331,W,3778,2.7,2.7,Boat Launch
+Recreation,Point,17,54527,,,NNW,14538,0.9,2.7,9 matches
+Building,Point,17,54527,,,NW,14885,1.0,2.3,7 matches
+Prov park waterway,Polygon,17,55525,552997,5252770,NNW,6114,2.1,2.1,OBABIKA RIVER PROVINCIAL PARK (WATERWAY CLASS)
+Recreation,Point,17,56525,561206,5251446,S,5145,1.8,1.8,
+Structure lup,Polygon,17,56526,,,W,17412,0.3,1.5,6 matches
+Recreation,Point,17,52524,,,W,14993,0.1,1.3,15 matches
+Significant,Polygon,17,56526,563331,5261766,W,6795,1.0,1.0,
+Trap cabin,Point,17,56526,567925,5267070,NE,6834,1.0,1.0,
+Recreation,Point,17,55523,,,SE,14093,0.0,0.7,37 matches
+Wind,Polygon,17,54525,543671,5253755,SSE,19738,0.5,0.5,
+Building,Point,17,53525,532931,5257210,WNW,9695,0.4,0.4,
+Main base tourist lodge,Polygon,17,56526,,,SW,20701,0.1,0.4,8 matches
+Building,Point,17,56527,,,NNE,14491,0.0,0.3,109 matches
+Recreation,Point,17,57526,570601,5265278,ENE,8045,0.2,0.2,
+Building,Point,17,53525,533153,5256574,WNW,9232,0.2,0.2,
+Building,Point,17,53525,531939,5259558,NW,11729,0.2,0.2,
+Building,Point,17,53526,533324,5263268,NW,13224,0.2,0.2,
+Building,Point,17,53526,533438,5263377,NW,13237,0.2,0.2,
+Fishing access,Point,17,56527,561123,5276983,N,14383,0.2,0.2,Boat Launch
+Recreation,Point,17,56527,561123,5276983,N,14383,0.2,0.2,Access Point/Boat Launch
+Recreation,Point,17,54523,,,S,8559,0.0,0.1,12 matches
+Recreation,Point,17,53526,531018,5263554,NW,14989,0.1,0.1,
+Fishing access,Point,17,52526,529889,5266099,NW,17611,0.1,0.1,Boat Launch
+Recreation,Point,17,52526,529889,5266099,NW,17611,0.1,0.1,Access Point/Boat Launch
+Building,Point,17,52526,,,NW,17767,0.0,0.1,13 matches
+Cottage,Polygon,17,54525,,,SE,29075,0.0,0.1,78 matches
+Structure lup,Polygon,17,55525,556341,5255038,NNW,5718,0.0,0.0,LADY SYDNEY LAKE
+Outpost tourist,Polygon,17,56526,563359,5261165,W,6295,0.0,0.0,
+Fishing access,Point,17,53524,534027,5249788,WNW,7098,0.0,0.0,Boat Launch
+Cottage,Polygon,17,55525,552629,5252566,NNW,7210,0.0,0.0,
+Structure lup,Polygon,17,54525,549989,5250553,NW,7423,0.0,0.0,Suckergut Lake (West Shore)
+Trap cabin,Point,17,56527,563629,5270266,N,7671,0.0,0.0,Barber Twp.
+Outpost commercial lup,Polygon,17,54524,546704,5246343,NW,8298,0.0,0.0,"E. Shore Chris Willis Lake, Lady Evelyn-"
+Waste mgmt,Polygon,17,55525,552997,5252770,NW,9547,0.0,0.0,LadyEvelynL8C3
+Building,Point,17,56525,,,SE,9757,0.0,0.0,4 matches
+Structure lup,Polygon,17,55526,,,SSE,10301,0.0,0.0,5 matches
+Building,Point,17,56524,,,SSE,10304,0.0,0.0,12 matches
+Recreation,Point,17,57526,572681,5266615,ENE,10499,0.0,0.0,
+Structure lup,Polygon,17,55525,552997,5252770,NNW,11225,0.0,0.0,Lady Evelyn Lake (West Shore) Obabika P.
+Main base tourist lodge,Polygon,17,55525,554336,5253605,NNW,11621,0.0,0.0,Drive-in
+Recreation,Point,17,56524,,,SSE,12143,0.0,0.0,39 matches
+Building,Point,17,57524,,,SE,12312,0.0,0.0,9 matches
+Trap cabin,Point,17,54527,549446,5271982,NW,12343,0.0,0.0,Willet Twp. Eastern shore of Cooke Lake. UTM Co-ordinates Zone 17T E = 549446m & N = 5271983m (NAD83).
+Building,Point,17,53526,534101,5262913,NW,12463,0.0,0.0,
+Recreation,Point,17,53523,,,SW,12777,0.0,0.0,9 matches
+Waste mgmt,Polygon,17,55525,554414,5253662,NW,12904,0.0,0.0,Lady Evelyn Lake
+Lodge lup,Polygon,17,56526,563113,5260035,WNW,12981,0.0,0.0,Mattawapika Dam - Com Boat slips and dock
+Fishing access,Point,17,57525,575849,5256816,ESE,13141,0.0,0.0,Boat Launch
+Recreation,Point,17,57525,,,ESE,13156,0.0,0.0,17 matches
+Building,Point,17,57525,,,ESE,13255,0.0,0.0,28 matches
+Lodge lup,Polygon,17,56526,563317,5260975,WNW,13805,0.0,0.0,"Mowat Landing, Montreal River"
+Building,Point,17,54523,541498,5231390,S,13870,0.0,0.0,
+Building,Point,17,54523,541510,5231382,S,13877,0.0,0.0,
+Building,Point,17,54523,541527,5231375,S,13883,0.0,0.0,
+Outpost tourist,Polygon,17,56526,563359,5261165,WNW,13940,0.0,0.0,
+Campground lup,Polygon,17,56526,563359,5261165,WNW,13941,0.0,0.0,"Plan M173T, Mowatt Landing"
+Fishing access,Point,17,57525,576974,5258089,ESE,13962,0.0,0.0,Boat Launch
+Campground lup,Polygon,17,56526,563359,5261165,WNW,14012,0.0,0.0,"Plan M173T, Mowatt Landing"
+Outpost tourist,Polygon,17,56526,563359,5261165,WNW,14052,0.0,0.0,
+Campground lup,Polygon,17,56526,563359,5261165,WNW,14066,0.0,0.0,"Plan M173T, Mowatt Landing"
+Recreation,Point,17,53526,530847,5263713,NW,15222,0.0,0.0,
+Trap cabin,Point,17,57526,578226,5265160,ENE,15273,0.0,0.0,
+Timber,Polygon,17,54524,540705,5245588,ENE,15387,0.0,0.0,Sudbury Forest
+Recreation,Point,17,57524,,,SE,15554,0.0,0.0,12 matches
+Significant,Polygon,17,54524,,,NE,16338,0.0,0.0,4 matches
+Building,Point,17,55527,,,N,16394,0.0,0.0,11 matches
+Recreation,Point,17,52525,,,WNW,18282,0.0,0.0,6 matches
+Mine,Polygon,17,56526,,,SSW,18307,0.0,0.0,20 matches
+Building,Point,17,57527,,,NE,18660,0.0,0.0,188 matches
+Building,Point,17,52525,523014,5254646,W,18728,0.0,0.0,
+Recreation,Point,17,52523,522492,5239057,WSW,19355,0.0,0.0,
+Mine,Polygon,17,55526,,,S,19483,0.0,0.0,41 matches
+Tower,Point,17,58526,582894,5263725,E,19667,0.0,0.0,
+Tower,Point,17,58525,582855,5257911,E,19772,0.0,0.0,
+Main base tourist lodge,Polygon,17,55526,557206,5262388,S,19816,0.0,0.0,James Township
+Building,Point,17,58525,,,ESE,19857,0.0,0.0,5 matches
+Recreation,Point,17,52523,521508,5239091,WSW,20274,0.0,0.0,
+Trap cabin,Point,17,58524,580151,5247435,ESE,20648,0.0,0.0,
+Building,Point,17,56528,,,N,20668,0.0,0.0,10 matches
+Outpost commercial lup,Polygon,17,54524,546704,5246343,NW,20806,0.0,0.0,Sirdevan Lake
+Recreation,Point,17,56523,,,SE,20830,0.0,0.0,25 matches
+Cottage,Polygon,17,55526,,,SSE,21571,0.0,0.0,14 matches
+Fishing access,Point,17,52526,521333,5260577,WNW,21703,0.0,0.0,Boat Launch
+Recreation,Point,17,52526,521333,5260577,WNW,21703,0.0,0.0,Access Point/Boat Launch
+Building,Point,17,55528,,,N,22036,0.0,0.0,62 matches
+Recreation,Point,17,54528,547165,5282129,NNW,22155,0.0,0.0,
+Outpost commercial lup,Polygon,17,56525,561068,5256649,NNW,22202,0.0,0.0,Eagle Lake (N shore)
+Tower,Point,17,51524,518981,5240526,WSW,22314,0.0,0.0,
+Outpost tourist,Polygon,17,54524,,,WSW,22436,0.0,0.0,4 matches
+Main base tourist lodge,Polygon,17,55526,557206,5262388,SSE,22480,0.0,0.0,James Township
+Recreation,Point,17,54528,547340,5282620,NNW,22517,0.0,0.0,
+Outpost tourist,Polygon,17,56525,561068,5256649,NNW,22562,0.0,0.0,
+Recreation,Point,17,54528,547322,5282671,NNW,22571,0.0,0.0,
+Structure lup,Polygon,17,56525,,,NW,22585,0.0,0.0,20 matches
+Waste mgmt,Polygon,17,56526,,,WSW,22614,0.0,0.0,6 matches
+Recreation,Point,17,51524,,,W,22767,0.0,0.0,4 matches
+Prov park waterway,Polygon,17,54524,540739,5245503,NE,23209,0.0,0.0,SOLACE PROVINCIAL PARK (WATERWAY CLASS)
+Main base tourist lodge,Polygon,17,54524,,,ENE,23524,0.0,0.0,5 matches
+Building,Point,17,58526,,,E,23608,0.0,0.0,276 matches
+Tower lup,Polygon,17,55526,557206,5262388,SSE,24092,0.0,0.0,
+Tower lup,Polygon,17,55526,557206,5262388,SSE,24139,0.0,0.0,
+Airport,Polygon,17,55526,557206,5262388,SSE,24273,0.0,0.0,Airport
+Trap cabin,Point,17,53527,538701,5279567,NNW,24407,0.0,0.0,Mickle Twp: NE shore of Burgess Lake. UTM Co-ordinates Zone 17T E= 538701m and N = 5279567m (NAD83)
+Prov park waterway,Polygon,17,54524,540739,5245503,ENE,24985,0.0,0.0,STURGEON RIVER PROVINCIAL PARK (WATERWAY CLASS)
+Building,Point,17,57528,,,NE,25127,0.0,0.0,15 matches
+Cottage,Polygon,17,55525,551849,5259013,SE,25134,0.0,0.0,Roadhouse TownshipNorth shore of Phelps Lake
+Cottage,Polygon,17,55525,551849,5259013,SE,25151,0.0,0.0,Roadhouse TownshipNorth shore of Phelps Lake
+Outpost commercial lup,Polygon,17,54524,546704,5246343,NW,25273,0.0,0.0,Aston Lake (NW shore)
+Building,Point,17,54528,,,NNW,25662,0.0,0.0,19 matches
+Tower,Point,17,51525,516454,5257911,WNW,25691,0.0,0.0,
+Structure lup,Polygon,17,55525,551849,5259013,SE,26036,0.0,0.0,HAROLD LAKE
+Waste mgmt,Polygon,17,56525,,,NW,26127,0.0,0.0,6 matches
+Building,Point,17,58527,,,ENE,26308,0.0,0.0,454 matches
+Building,Point,17,53528,536113,5280087,NW,26311,0.0,0.0,
+Building,Point,17,51525,516217,5259987,WNW,26397,0.0,0.0,
+Waste mgmt,Polygon,17,54525,541771,5253080,SSE,26729,0.0,0.0,Longpoint Lake
+Recreation,Point,17,51523,,,WSW,27046,0.0,0.0,8 matches
+Recreation,Point,17,57523,,,SSE,27165,0.0,0.0,12 matches
+Recreation,Point,17,58524,,,ESE,27359,0.0,0.0,21 matches
+Waste mgmt,Polygon,17,54525,541771,5253080,SSE,27495,0.0,0.0,Longpoint Lake
+Building,Point,17,57523,,,SE,27752,0.0,0.0,5 matches
+Building,Point,17,53527,,,NNW,27828,0.0,0.0,27 matches
+Fishing access,Point,17,51523,514803,5235161,WSW,27932,0.0,0.0,Boat Launch
+Fishing access,Point,17,53527,530282,5279035,NNW,28394,0.0,0.0,Boat Launch
+Recreation,Point,17,53527,530282,5279035,NNW,28394,0.0,0.0,Access Point/Boat Launch
+Fishing access,Point,17,58524,589210,5248191,ESE,28455,0.0,0.0,Boat Launch
+Tower,Point,17,59526,591602,5266901,E,28738,0.0,0.0,
+Building,Point,17,51523,,,WSW,28893,0.0,0.0,10 matches
+Cottage,Polygon,17,56525,,,NW,29015,0.0,0.0,13 matches
+Airport,Polygon,17,56526,563058,5262276,SW,29530,0.0,0.0,Airport
+Building,Point,17,51526,,,WNW,29558,0.0,0.0,13 matches
+Trap cabin,Point,17,58523,582875,5235806,SE,30161,0.0,0.0,
+Trap cabin,Point,17,51526,514865,5267068,WNW,30274,0.0,0.0,Leith Twp: SW shoreline of Hangingstone Lake. UTM Co-ordinates zone 17T E= 514866m and N= 5267068m (NAD83)
+Cottage,Polygon,17,54524,,,SSE,30462,0.0,0.0,10 matches
+Building,Point,17,52527,,,NNW,30699,0.0,0.0,19 matches
+Building,Point,17,58523,,,SE,31095,0.0,0.0,38 matches
+Building,Point,17,58524,,,ESE,31107,0.0,0.0,181 matches
+Prov park recreation,Polygon,17,56525,562637,5258359,NW,31145,0.0,0.0,W.J.B. GREENWOOD PROVINCIAL PARK (RECREATIONAL CLASS)
+Boat cache lup,Polygon,17,56525,,,NW,31256,0.0,0.0,11 matches
+Fishing access,Point,17,58523,585773,5237263,SE,31320,0.0,0.0,Boat Launch
+Fishing access,Point,17,52527,525231,5279770,NNW,31409,0.0,0.0,Boat Launch
+Recreation,Point,17,52527,525231,5279770,NNW,31409,0.0,0.0,Access Point/Boat Launch
+Tower,Point,17,59527,591593,5276909,ENE,32034,0.0,0.0,
+Building,Point,17,52528,,,NNW,32066,0.0,0.0,5 matches
+Tower,Point,17,58523,585869,5236132,SE,32163,0.0,0.0,
+Forest processing,Point,17,59525,595213,5256600,E,32189,0.0,0.0,Sawmill - Small
+Building,Point,17,58528,,,NE,32242,0.0,0.0,471 matches
+Forest processing,Point,17,59524,592949,5247301,ESE,32269,0.0,0.0,Other Facility
+Recreation,Point,17,58523,,,SE,32294,0.0,0.0,27 matches
+Tower,Point,17,51527,518484,5277089,NW,33436,0.0,0.0,
+Fire comm tower,Point,17,51527,518323,5277165,NW,33602,0.0,0.0,Gowganda
+Building,Point,17,59523,590751,5239859,SE,33666,0.0,0.0,
+Building,Point,17,59523,590810,5239927,SE,33678,0.0,0.0,
+Building,Point,17,50525,507990,5258723,W,34168,0.0,0.0,
+Tower lup,Polygon,17,54525,541672,5253018,SE,34213,0.0,0.0,
+Tower,Point,17,51527,518020,5277890,NW,34336,0.0,0.0,
+Mine,Polygon,17,54525,,,SE,34522,0.0,0.0,111 matches
+Building,Point,17,59526,,,E,34801,0.0,0.0,2014 matches
+Trap cabin,Point,17,50523,508641,5232009,WSW,34832,0.0,0.0,
+Airport,Polygon,17,56526,563359,5261165,W,34904,0.0,0.0,Hospital Heliport
+Tower,Point,17,59526,598319,5261188,E,34970,0.0,0.0,
+Building,Point,17,59527,,,ENE,34992,0.0,0.0,579 matches
+Building,Point,17,51527,,,NW,35041,0.0,0.0,221 matches
+Building,Point,17,59524,,,ESE,35227,0.0,0.0,478 matches
+Building,Point,17,59525,,,ESE,35297,0.0,0.0,458 matches
+Airport,Polygon,17,54525,541672,5253018,SE,35302,0.0,0.0,Seaplane Base
+Main base tourist lodge,Polygon,17,54525,,,SE,35313,0.0,0.0,10 matches
+Building,Point,17,51528,519215,5280275,NW,35330,0.0,0.0,
+Building,Point,17,51528,519271,5280346,NW,35349,0.0,0.0,
+Building,Point,17,51528,519251,5280332,NW,35351,0.0,0.0,
+Tower,Point,17,59526,598721,5260830,E,35374,0.0,0.0,
+Recreation,Point,17,51527,,,NW,35522,0.0,0.0,4 matches
+Fishing access,Point,17,51527,,,NW,35537,0.0,0.0,4 matches
+Prov park waterway,Polygon,17,54525,541672,5253018,SE,35770,0.0,0.0,WEST MONTREAL RIVER PROVINCIAL PARK (WATERWAY CLASS)
+Recreation,Point,17,59524,,,ESE,36339,0.0,0.0,4 matches
+Building,Point,17,50525,505468,5257601,W,36500,0.0,0.0,
+Tower,Point,17,59524,598405,5249870,ESE,36736,0.0,0.0,
+Trap cabin,Point,17,50525,505121,5258142,W,36915,0.0,0.0,North Williams Twp. NW shore of Spear Lake. Zone 17T E = 505122m & N = 5258140m (NAD83)
+Building,Point,17,59528,,,ENE,37142,0.0,0.0,279 matches
+Building,Point,17,60526,,,E,37253,0.0,0.0,859 matches
+Waste mgmt,Polygon,17,54525,541672,5253018,SE,37663,0.0,0.0,Gowganda
+Forest processing,Point,17,59527,599555,5274226,ENE,38300,0.0,0.0,Pellets
+Building,Point,17,60525,,,E,38435,0.0,0.0,270 matches
+Building,Point,17,59523,593823,5235898,SE,38445,0.0,0.0,
+Tower,Point,17,60524,600037,5247819,ESE,38854,0.0,0.0,
+Building,Point,17,50523,502719,5237124,WSW,38932,0.0,0.0,Cabin
+Tower,Point,17,60524,600131,5247690,ESE,38981,0.0,0.0,
+Fire comm tower,Point,17,60524,600145,5247686,ESE,38995,0.0,0.0,Cobalt
+Building,Point,17,50523,502633,5237060,WSW,39030,0.0,0.0,Cabin
+Building,Point,17,60524,,,ESE,39556,0.0,0.0,29 matches
+Building,Point,17,60527,,,ENE,39960,0.0,0.0,63 matches
+Fishing access,Point,17,50527,509629,5277111,NW,40105,0.0,0.0,Boat Launch
+Recreation,Point,17,50527,509629,5277111,NW,40105,0.0,0.0,Access Point/Boat Launch
+Tower,Point,17,59523,594106,5233420,SE,40166,0.0,0.0,
+Tower lup,Polygon,17,56525,562637,5258359,NW,40239,0.0,0.0,
+Tower,Point,17,59523,594229,5233414,SE,40266,0.0,0.0,
+Recreation,Point,17,59523,,,SE,40676,0.0,0.0,8 matches
+Trap cabin,Point,17,49523,498878,5238047,W,42517,0.0,0.0,"Stull Twp., off Sandy Lake Road, west side of Sylvester Creek, at 498833, 5238057."
+Building,Point,17,50527,,,NW,43050,0.0,0.0,22 matches
+Building,Point,17,60528,,,ENE,43214,0.0,0.0,45 matches
+Building,Point,17,49523,,,WSW,43249,0.0,0.0,30 matches
+Fishing access,Point,17,50527,505184,5276642,WNW,43483,0.0,0.0,Boat Launch
+Recreation,Point,17,50527,505184,5276642,WNW,43483,0.0,0.0,Access Point/Boat Launch
+Building,Point,17,60523,600420,5236736,ESE,43546,0.0,0.0,
+Building,Point,17,60523,600469,5236777,ESE,43569,0.0,0.0,
+Building,Point,17,60523,600683,5236587,ESE,43849,0.0,0.0,
+Trap cabin,Point,17,49525,496803,5253500,W,44244,0.0,0.0,North Williams Twp: on Silvester Creek. Zone 17T E=496803m & N = 5253500m (NAD83)
+Recreation,Point,17,60523,,,ESE,44694,0.0,0.0,4 matches
+Access lup,Polygon,17,54525,541666,5253011,ESE,45107,0.0,0.0,
+Fishing access,Point,17,50527,502221,5276444,WNW,45898,0.0,0.0,Boat Launch
+Recreation,Point,17,50527,502221,5276444,WNW,45898,0.0,0.0,Access Point/Boat Launch
+Significant,Polygon,17,56525,562637,5258359,NW,46128,0.0,0.0,
+Building,Point,17,50528,,,NW,46155,0.0,0.0,4 matches
+Significant,Polygon,17,56525,562637,5258359,NW,46316,0.0,0.0,
+Building,Point,17,49527,,,WNW,49770,0.0,0.0,10 matches

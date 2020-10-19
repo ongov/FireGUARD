@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="hg4idea" />
+    <mapping directory="$PROJECT_DIR$/WeatherShield" vcs="hg4idea" />
+    <mapping directory="$PROJECT_DIR$/db/historic" vcs="hg4idea" />
+    <mapping directory="$PROJECT_DIR$/fpa_generate" vcs="hg4idea" />
+    <mapping directory="$PROJECT_DIR$/gui" vcs="hg4idea" />
+    <mapping directory="$PROJECT_DIR$/gui.old" vcs="hg4idea" />
+    <mapping directory="$PROJECT_DIR$/pygrib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/sqlserverdump" vcs="hg4idea" />
+    <mapping directory="$PROJECT_DIR$/wgrib2" vcs="hg4idea" />
+  </component>
+</project>

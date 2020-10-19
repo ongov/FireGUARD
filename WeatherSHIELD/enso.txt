@@ -1,0 +1,24 @@
+http://www.cpc.ncep.noaa.gov/data/indices/ersst3b.nino.mth.81-10.ascii
+
+http://ftp.cpc.ncep.noaa.gov/wd52dg/data/indices/ersst3b.nino.mth.81-10.ascii
+http://ftp.cpc.ncep.noaa.gov/wd52dg/data/indices/ersst3b.nino.mth.ascii
+
+
+these aren't the same readings, but they go out to last month
+ - could we use the last few months as a way to estimate?
+http://www.cpc.ncep.noaa.gov/data/indices/sstoi.indices
+http://ftp.cpc.ncep.noaa.gov/wd52dg/data/indices/sstoi.indices
+
+http://ftp.cpc.ncep.noaa.gov/wd52dg/data/indices/soi
+
+
+http://www.cpc.ncep.noaa.gov/data/indices/ersst3b.nino.mth.81-10.rt.ascii
+http://www.cpc.ncep.noaa.gov/data/indices/ersst4.nino.mth.81-10.ascii
+
+http://www.cpc.ncep.noaa.gov/products/analysis_monitoring/ensostuff/detrend.nino34.ascii.txt
+
+
+
+
+this seems to be slightly different, but more current
+http://www.cpc.ncep.noaa.gov/products/analysis_monitoring/ensostuff/ensoyears_ERSSTv3b.shtml

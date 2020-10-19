@@ -1,0 +1,16 @@
+[Simulation]
+fire = NOR072
+day = 2018-07-20
+latitude = 47.3711
+longitude = -80.4615
+output_directory = C:\FireGUARD\FireSTARR_dev\test\output
+current_size = 7000
+perimeter = 
+start_time = 00:00
+run_output = NOR\NOR072\2018-07-20_0000
+outbase = C:\FireGUARD\FireSTARR_dev\test
+year = 2018
+ffmc = 92
+dmc = 59
+dc = 318
+

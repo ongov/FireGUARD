@@ -1,0 +1,12 @@
+[Simulation]
+fire = THU001
+day = 2018-04-23
+latitude = 48.3568
+longitude = -89.2851
+output_directory = C:\FireGUARD\FireSTARR_dev\test\output
+current_size = 0
+start_time = 20:17
+run_output = THU\THU001\2018-04-23_2017
+outbase = C:\FireGUARD\FireSTARR_dev\test
+year = 2018
+

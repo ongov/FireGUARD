@@ -1,0 +1,12 @@
+[Simulation]
+fire = PAR003
+day = 2018-05-14
+latitude = 44.9039
+longitude = -79.6604
+output_directory = C:\FireGUARD\FireSTARR_dev\test\output
+current_size = 0
+start_time = 14:50
+run_output = PAR\PAR003\2018-05-14_1450
+outbase = C:\FireGUARD\FireSTARR_dev\test
+year = 2018
+

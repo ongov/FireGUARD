@@ -1,0 +1,75 @@
+! Display the OR sites ...
+
+! =================================================================
+! To add new stations, insert new station identifier after the last
+! identifier and before the semi-colon as in:
+! location_ident_list =	WFS BAK NEW;
+! =================================================================
+
+@define_sample_list
+{
+  list_name           = list_stns;
+!E01
+  location_ident_list = PEA FSV;
+!E02
+  location_ident_list = MAK OGP WLF APT WEB FTH DEB;
+!E03
+  location_ident_list = MOO FTA;
+!E04
+  location_ident_list = BNR OBA RUF KAP HEA;
+!E05
+  location_ident_list = TIM ABL OKE COC PIN ILF KES SMO STG LUR;
+!E06
+  location_ident_list = FLL ARB CHA DAL FOL MIE ARB;
+!E07
+  location_ident_list = LOO GOG LLK MTC KLK;
+!E08
+  location_ident_list = AGA BUD RRK HWJ PAN;
+!E09
+  location_ident_list = TLN QRK CHB SAU RAN LBC MEA SDL;
+!E10
+  location_ident_list = GRU KIL MAS SUZ CRT TWI FLX BRW NAT BVL;
+!E11
+  location_ident_list = RES TRM MTN LNK;
+!E12
+  location_ident_list = BJC;
+!E13
+  location_ident_list = SIX BRA DCH EGL KBR FLD;
+!E14
+  location_ident_list = HBN APK PEM TRA PNF KIO APW BAN BPP;
+!E15
+  location_ident_list = YYZ;
+!E16
+  location_ident_list = CDN;
+!E17
+  location_ident_list = PTG PLE;
+!W01
+  location_ident_list = KAS BTL BKN;
+!W02
+  location_ident_list = POP NSL DEE WEA SDY MSK SAC;
+!W03
+  location_ident_list = PIC MIM WBN PAP NIB KNG;
+!W04
+  location_ident_list = PER MAY XEA LAC BUN CAN RED SOU SAB JOB UPG BAK;
+!W05
+  location_ident_list = GLP STU SIO SLK SWW SVB SAV SOC MED SLA CAT OK1;
+!W06
+  location_ident_list = RKR NON MAC KRN KAB JEA AUD ARM SRM OGI HO1;
+!W07
+  location_ident_list = DUB PTL MAN HOR TRI HST CMT NAG GRE KLO NAK ANA SLV GER;
+!W08
+  location_ident_list = SXN FED CLB KEN CAR SEP;
+!W09
+  location_ident_list = GRY BPW MAR IGN WNG SAN DRY VBW ENG;
+!W10
+  location_ident_list = TAG MIC PAT CAL FOR GAM;
+!W11
+  location_ident_list = CAC KSH LLC MYR BEA SHE FLK SAP WCH HIK WDV RTH PRA ATI;
+!W12
+  location_ident_list = ARO THU DOR DVL KAK;
+!W13
+  location_ident_list = WHR WLP MVA PTL TER NCL;
+  x_shift = 0;
+  y_shift = 1;
+}
+

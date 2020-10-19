@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="src\wx">
+      <UniqueIdentifier>{817ef856-3e3e-45b2-aa0b-56a8815f415c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\fuel">
+      <UniqueIdentifier>{f5583d5d-2c6e-49dd-b449-34cb87ce05e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sim">
+      <UniqueIdentifier>{44b30ca7-dcd9-474a-99a8-44e8c2714e66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\topo">
+      <UniqueIdentifier>{7f5f1bc7-58ff-4df5-84fc-89583396f0fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\logging">
+      <UniqueIdentifier>{43abfe4e-b63e-480b-a8f3-438760b53789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\data">
+      <UniqueIdentifier>{01940e27-b5d1-4e44-8789-23e8c581ff34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\util">
+      <UniqueIdentifier>{7f71697f-9928-432b-b2ad-8713f51257c5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\stdafx.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FireWeather.h">
+      <Filter>src\wx</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FwiStream.h">
+      <Filter>src\wx</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Weather.h">
+      <Filter>src\wx</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WeatherModel.h">
+      <Filter>src\wx</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WxShield.h">
+      <Filter>src\wx</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Score.h">
+      <Filter>src\wx</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FBP45.h">
+      <Filter>src\fuel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FuelLookup.h">
+      <Filter>src\fuel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FuelType.h">
+      <Filter>src\fuel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FWI.h">
+      <Filter>src\wx</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StandardFuel.h">
+      <Filter>src\fuel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Util.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EventCompare.h">
+      <Filter>src\sim</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Event.h">
+      <Filter>src\sim</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FireSpread.h">
+      <Filter>src\sim</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Duff.h">
+      <Filter>src\fuel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Startup.h">
+      <Filter>src\wx</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Iteration.h">
+      <Filter>src\sim</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Observer.h">
+      <Filter>src\sim</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Environment.h">
+      <Filter>src\topo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EnvironmentInfo.h">
+      <Filter>src\topo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IntensityMap.h">
+      <Filter>src\sim</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Point.h">
+      <Filter>src\topo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Location.h">
+      <Filter>src\topo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scenario.h">
+      <Filter>src\sim</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Cell.h">
+      <Filter>src\topo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model.h">
+      <Filter>src\sim</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StartPoint.h">
+      <Filter>src\topo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Perimeter.h">
+      <Filter>src\topo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ProbabilityMap.h">
+      <Filter>src\sim</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GridMap.h">
+      <Filter>src\data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Grid.h">
+      <Filter>src\data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ConstantGrid.h">
+      <Filter>src\data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Settings.h">
+      <Filter>src\sim</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Test.h">
+      <Filter>src\sim</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Log.h">
+      <Filter>src\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Statistics.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Time.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Trim.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Util.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Database.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LookupTable.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MemoryPool.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SafeVector.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UTM.h">
+      <Filter>src\topo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Index.h">
+      <Filter>src\data</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Settings.h">
+      <Filter>src\sim</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\stdafx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FireWeather.cpp">
+      <Filter>src\wx</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FwiStream.cpp">
+      <Filter>src\wx</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Weather.cpp">
+      <Filter>src\wx</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WeatherModel.cpp">
+      <Filter>src\wx</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WxShield.cpp">
+      <Filter>src\wx</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FBP45.cpp">
+      <Filter>src\fuel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FuelLookup.cpp">
+      <Filter>src\fuel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FuelType.cpp">
+      <Filter>src\fuel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FWI.cpp">
+      <Filter>src\wx</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StandardFuel.cpp">
+      <Filter>src\fuel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FireSpread.cpp">
+      <Filter>src\sim</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Observer.cpp">
+      <Filter>src\sim</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Duff.cpp">
+      <Filter>src\fuel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Startup.cpp">
+      <Filter>src\wx</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Iteration.cpp">
+      <Filter>src\sim</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Environment.cpp">
+      <Filter>src\topo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EnvironmentInfo.cpp">
+      <Filter>src\topo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\IntensityMap.cpp">
+      <Filter>src\sim</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ProbabilityMap.cpp">
+      <Filter>src\sim</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scenario.cpp">
+      <Filter>src\sim</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Settings.cpp">
+      <Filter>src\sim</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model.cpp">
+      <Filter>src\sim</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StartPoint.cpp">
+      <Filter>src\topo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Perimeter.cpp">
+      <Filter>src\topo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Grid.cpp">
+      <Filter>src\data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Test.cpp">
+      <Filter>src\sim</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Log.cpp">
+      <Filter>src\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Time.cpp">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Trim.cpp">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Util.cpp">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Database.cpp">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SafeVector.cpp">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UTM.cpp">
+      <Filter>src\topo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="tiff-3.9.7\libtiff\libtiff.lib" />
+    <Library Include="tiff-3.9.7\libtiff\libtiff_i.lib" />
+    <Library Include="libgeotiff\geotiff.lib" />
+    <Library Include="libgeotiff\geotiff_i.lib" />
+  </ItemGroup>
+</Project>
