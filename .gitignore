@@ -12,6 +12,7 @@ documentation/dia
 documentation/doxygen
 documentation/Graphviz
 documentation/html
+.idea
 100m
 WeatherSHIELD/db/sed
 WeatherSHIELD/log
