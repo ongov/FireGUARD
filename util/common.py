@@ -23,7 +23,7 @@ import certifi
 import ssl
 
 ## So HTTPS transfers work properly
-#~ ssl._create_default_https_context = ssl._create_unverified_context
+ssl._create_default_https_context = ssl._create_unverified_context
 
 ## bounds to use for clipping data
 BOUNDS = None
