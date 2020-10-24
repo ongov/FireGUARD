@@ -680,6 +680,8 @@ def download(get_what, suppress_exceptions=True):
         url = get_what[1]
         if proxy is not None:
             set_proxy(proxy, verbose=False)
+        # HACK: check this to make sure url completion has worked properly
+        assert('{}' not in url)
         response = urllib2.urlopen(url)
         # logging.debug("Saving {}".format(url))
         return response.read()
