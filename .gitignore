@@ -20,4 +20,5 @@ WeatherSHIELD/wgrib*
 WeatherSHIELD/gui/js/jquery-1.11.3.js
 WeatherSHIELD/gui/js/jquery-1.11.3.min.js
 WeatherSHIELD/gui/js/jquery.validate.js
+WeatherSHIELD/gui/js/jspdf
 log*.txt

@@ -165,6 +165,11 @@ SET JQUERY_VALIDATE_ZIP=1.11.1.zip
 call :ensure_file https://github.com/jquery-validation/jquery-validation/archive/%JQUERY_VALIDATE_ZIP% %JQUERY_VALIDATE_ZIP%
 Powershell Expand-Archive -Force %DOWNLOAD_DIR%\%JQUERY_VALIDATE_ZIP% %DOWNLOAD_DIR%
 copy /y %DOWNLOAD_DIR%\jquery-validation-1.11.1\jquery.validate.js %LOCAL_DIR%\..\WeatherSHIELD\gui\js\
+SET JSPDF_ZIP=v1.2.61.zip
+call :ensure_file https://github.com/MrRio/jsPDF/archive/%JSPDF_ZIP% %JSPDF_ZIP%
+Powershell Expand-Archive -Force %DOWNLOAD_DIR%\%JSPDF_ZIP% %DOWNLOAD_DIR%
+IF NOT EXIST "%LOCAL_DIR%\..\WeatherSHIELD\gui\js\jspdf" mkdir "%LOCAL_DIR%\..\WeatherSHIELD\gui\js\jspdf"
+copy /y %DOWNLOAD_DIR%\jsPDF-1.2.61\dist\jspdf.min.js %LOCAL_DIR%\..\WeatherSHIELD\gui\js\jspdf\jspdf.js
 
 @rem need to install .NET 3.5 so do that first so it doesn't prompt user
 DISM /Online /Enable-Feature /FeatureName:NetFx3 /All
