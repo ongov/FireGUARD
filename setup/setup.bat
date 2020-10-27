@@ -161,6 +161,10 @@ copy /y %DOWNLOAD_DIR%\%JQUERY% %LOCAL_DIR%\..\WeatherSHIELD\gui\js\%JQUERY%
 SET JQUERY_MIN=jquery-1.11.3.min.js
 call :ensure_file https://code.jquery.com/%JQUERY_MIN% %JQUERY_MIN%
 copy /y %DOWNLOAD_DIR%\%JQUERY_MIN% %LOCAL_DIR%\..\WeatherSHIELD\gui\js\%JQUERY_MIN%
+SET JQUERY_VALIDATE_ZIP=1.11.1.zip
+call :ensure_file https://github.com/jquery-validation/jquery-validation/archive/%JQUERY_VALIDATE_ZIP% %JQUERY_VALIDATE_ZIP%
+Powershell Expand-Archive -Force %DOWNLOAD_DIR%\%JQUERY_VALIDATE_ZIP% %DOWNLOAD_DIR%
+copy /y %DOWNLOAD_DIR%\jquery-validation-1.11.1\jquery.validate.js %LOCAL_DIR%\..\WeatherSHIELD\gui\js\
 
 @rem need to install .NET 3.5 so do that first so it doesn't prompt user
 DISM /Online /Enable-Feature /FeatureName:NetFx3 /All
