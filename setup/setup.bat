@@ -180,6 +180,11 @@ Powershell Expand-Archive -Force %DOWNLOAD_DIR%\%CHARTJSANNO_ZIP% %DOWNLOAD_DIR%
 @rem FIX: downloading but not actually using this because right now the code is overridden and can't figure out how to put that in external file
 @rem IF NOT EXIST "%LOCAL_DIR%\..\WeatherSHIELD\gui\js\chartjs-plugin-annotation" mkdir "%LOCAL_DIR%\..\WeatherSHIELD\gui\js\chartjs-plugin-annotation"
 @rem copy /y "%DOWNLOAD_DIR%\chartjs-plugin-annotation-0.5.7\*" "%LOCAL_DIR%\..\WeatherSHIELD\gui\js\chartjs-plugin-annotation\"
+SET BOOTSTRAP_ZIP=bootstrap-3.4.1-dist.zip
+call :ensure_file https://github.com/twbs/bootstrap/releases/download/v3.4.1/%BOOTSTRAP_ZIP% %BOOTSTRAP_ZIP%
+Powershell Expand-Archive -Force %DOWNLOAD_DIR%\%BOOTSTRAP_ZIP% %DOWNLOAD_DIR%
+IF NOT EXIST "%LOCAL_DIR%\..\WeatherSHIELD\gui\bootstrap" mkdir "%LOCAL_DIR%\..\WeatherSHIELD\gui\bootstrap"
+robocopy /ndl /mir "%DOWNLOAD_DIR%\bootstrap-3.4.1-dist" "%LOCAL_DIR%\..\WeatherSHIELD\gui\bootstrap"
 
 @rem need to install .NET 3.5 so do that first so it doesn't prompt user
 DISM /Online /Enable-Feature /FeatureName:NetFx3 /All

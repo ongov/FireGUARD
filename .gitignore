@@ -17,6 +17,7 @@ documentation/html
 WeatherSHIELD/db/sed
 WeatherSHIELD/log
 WeatherSHIELD/wgrib*
+WeatherSHIELD/gui/bootstrap
 WeatherSHIELD/gui/js/jquery-1.11.3.js
 WeatherSHIELD/gui/js/jquery-1.11.3.min.js
 WeatherSHIELD/gui/js/jquery.validate.js
