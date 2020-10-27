@@ -174,6 +174,12 @@ SET CHARTJS_ZIP=v2.9.3.zip
 call :ensure_file https://github.com/chartjs/Chart.js/archive/%CHARTJS_ZIP% %CHARTJS_ZIP%
 Powershell Expand-Archive -Force %DOWNLOAD_DIR%\%CHARTJS_ZIP% %DOWNLOAD_DIR%
 @rem FIX: downloading but not actually using this because right now the code is overridden and can't figure out how to put that in external file
+SET CHARTJSANNO_ZIP=v0.5.7.zip
+call :ensure_file https://github.com/chartjs/chartjs-plugin-annotation/archive/%CHARTJSANNO_ZIP% %CHARTJSANNO_ZIP%
+Powershell Expand-Archive -Force %DOWNLOAD_DIR%\%CHARTJSANNO_ZIP% %DOWNLOAD_DIR%
+@rem FIX: downloading but not actually using this because right now the code is overridden and can't figure out how to put that in external file
+@rem IF NOT EXIST "%LOCAL_DIR%\..\WeatherSHIELD\gui\js\chartjs-plugin-annotation" mkdir "%LOCAL_DIR%\..\WeatherSHIELD\gui\js\chartjs-plugin-annotation"
+@rem copy /y "%DOWNLOAD_DIR%\chartjs-plugin-annotation-0.5.7\*" "%LOCAL_DIR%\..\WeatherSHIELD\gui\js\chartjs-plugin-annotation\"
 
 @rem need to install .NET 3.5 so do that first so it doesn't prompt user
 DISM /Online /Enable-Feature /FeatureName:NetFx3 /All
