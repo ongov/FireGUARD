@@ -247,8 +247,6 @@ return '['.implode(', ', array_map(create_function('$v', 'return "\'".$v."\'";')
         <script type="text/javascript" src="js/jspdf/png_support/png.js"></script>
         <script type="text/javascript" src="js/jspdf/plugins/addimage.js"></script>
         <script type="text/javascript" src="js/jspdf/plugins/png_support.js"></script>
-        <script type="text/javascript" src="js/canvg.js"></script>
-        <script type="text/javascript" src="js/rgbcolor.js"></script>
         <script src="js/DateCalculations.js"> </script>
         <script src="js/calc_fwi.js"></script>
         <script src="js/calc_fbp.js"></script>
