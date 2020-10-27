@@ -154,6 +154,38 @@ call :ensure_file https://sourceforge.net/projects/gnuwin32/files/libintl/0.11.5
 SET LIBICONV_ZIP=libiconv-1.8-1-bin.zip
 call :ensure_file https://sourceforge.net/projects/gnuwin32/files/libiconv/1.8-1/%LIBICONV_ZIP%/download %LIBICONV_ZIP%
 
+@rem HACK: for now download libraries this way
+SET JQUERY=jquery-1.11.3.js
+call :ensure_file https://code.jquery.com/%JQUERY% %JQUERY%
+copy /y %DOWNLOAD_DIR%\%JQUERY% %LOCAL_DIR%\..\WeatherSHIELD\gui\js\%JQUERY%
+SET JQUERY_MIN=jquery-1.11.3.min.js
+call :ensure_file https://code.jquery.com/%JQUERY_MIN% %JQUERY_MIN%
+copy /y %DOWNLOAD_DIR%\%JQUERY_MIN% %LOCAL_DIR%\..\WeatherSHIELD\gui\js\%JQUERY_MIN%
+SET JQUERY_VALIDATE_ZIP=1.11.1.zip
+call :ensure_file https://github.com/jquery-validation/jquery-validation/archive/%JQUERY_VALIDATE_ZIP% %JQUERY_VALIDATE_ZIP%
+Powershell Expand-Archive -Force %DOWNLOAD_DIR%\%JQUERY_VALIDATE_ZIP% %DOWNLOAD_DIR%
+copy /y %DOWNLOAD_DIR%\jquery-validation-1.11.1\jquery.validate.js %LOCAL_DIR%\..\WeatherSHIELD\gui\js\
+SET JSPDF_ZIP=v1.2.61.zip
+call :ensure_file https://github.com/MrRio/jsPDF/archive/%JSPDF_ZIP% %JSPDF_ZIP%
+Powershell Expand-Archive -Force %DOWNLOAD_DIR%\%JSPDF_ZIP% %DOWNLOAD_DIR%
+IF NOT EXIST "%LOCAL_DIR%\..\WeatherSHIELD\gui\js\jspdf" mkdir "%LOCAL_DIR%\..\WeatherSHIELD\gui\js\jspdf"
+copy /y %DOWNLOAD_DIR%\jsPDF-1.2.61\dist\jspdf.min.js %LOCAL_DIR%\..\WeatherSHIELD\gui\js\jspdf\jspdf.js
+SET CHARTJS_ZIP=v2.9.3.zip
+call :ensure_file https://github.com/chartjs/Chart.js/archive/%CHARTJS_ZIP% %CHARTJS_ZIP%
+Powershell Expand-Archive -Force %DOWNLOAD_DIR%\%CHARTJS_ZIP% %DOWNLOAD_DIR%
+@rem FIX: downloading but not actually using this because right now the code is overridden and can't figure out how to put that in external file
+SET CHARTJSANNO_ZIP=v0.5.7.zip
+call :ensure_file https://github.com/chartjs/chartjs-plugin-annotation/archive/%CHARTJSANNO_ZIP% %CHARTJSANNO_ZIP%
+Powershell Expand-Archive -Force %DOWNLOAD_DIR%\%CHARTJSANNO_ZIP% %DOWNLOAD_DIR%
+@rem FIX: downloading but not actually using this because right now the code is overridden and can't figure out how to put that in external file
+@rem IF NOT EXIST "%LOCAL_DIR%\..\WeatherSHIELD\gui\js\chartjs-plugin-annotation" mkdir "%LOCAL_DIR%\..\WeatherSHIELD\gui\js\chartjs-plugin-annotation"
+@rem copy /y "%DOWNLOAD_DIR%\chartjs-plugin-annotation-0.5.7\*" "%LOCAL_DIR%\..\WeatherSHIELD\gui\js\chartjs-plugin-annotation\"
+SET BOOTSTRAP_ZIP=bootstrap-3.4.1-dist.zip
+call :ensure_file https://github.com/twbs/bootstrap/releases/download/v3.4.1/%BOOTSTRAP_ZIP% %BOOTSTRAP_ZIP%
+Powershell Expand-Archive -Force %DOWNLOAD_DIR%\%BOOTSTRAP_ZIP% %DOWNLOAD_DIR%
+IF NOT EXIST "%LOCAL_DIR%\..\WeatherSHIELD\gui\bootstrap" mkdir "%LOCAL_DIR%\..\WeatherSHIELD\gui\bootstrap"
+robocopy /ndl /mir "%DOWNLOAD_DIR%\bootstrap-3.4.1-dist" "%LOCAL_DIR%\..\WeatherSHIELD\gui\bootstrap"
+
 @rem need to install .NET 3.5 so do that first so it doesn't prompt user
 DISM /Online /Enable-Feature /FeatureName:NetFx3 /All
 

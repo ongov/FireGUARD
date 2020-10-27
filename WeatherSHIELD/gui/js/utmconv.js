@@ -1,3 +1,5 @@
+// Looks like this was (probably) originally from: http://rcn.montana.edu/Resources/Converter.aspx
+
 ///
 /// A UTM -> Lat/Long (or vice versa) converter adapted from the script used at 
 ///     http://www.uwgb.edu/dutchs/UsefulData/ConvertUTMNoOZ.HTM
