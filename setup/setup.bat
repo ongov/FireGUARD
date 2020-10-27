@@ -170,6 +170,10 @@ call :ensure_file https://github.com/MrRio/jsPDF/archive/%JSPDF_ZIP% %JSPDF_ZIP%
 Powershell Expand-Archive -Force %DOWNLOAD_DIR%\%JSPDF_ZIP% %DOWNLOAD_DIR%
 IF NOT EXIST "%LOCAL_DIR%\..\WeatherSHIELD\gui\js\jspdf" mkdir "%LOCAL_DIR%\..\WeatherSHIELD\gui\js\jspdf"
 copy /y %DOWNLOAD_DIR%\jsPDF-1.2.61\dist\jspdf.min.js %LOCAL_DIR%\..\WeatherSHIELD\gui\js\jspdf\jspdf.js
+SET CHARTJS_ZIP=v2.9.3.zip
+call :ensure_file https://github.com/chartjs/Chart.js/archive/%CHARTJS_ZIP% %CHARTJS_ZIP%
+Powershell Expand-Archive -Force %DOWNLOAD_DIR%\%CHARTJS_ZIP% %DOWNLOAD_DIR%
+@rem FIX: downloading but not actually using this because right now the code is overridden and can't figure out how to put that in external file
 
 @rem need to install .NET 3.5 so do that first so it doesn't prompt user
 DISM /Online /Enable-Feature /FeatureName:NetFx3 /All
