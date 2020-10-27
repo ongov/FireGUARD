@@ -65,7 +65,7 @@ class GribLoader(WeatherLoader):
             date = for_run.strftime(r'%Y%m%d')
             time = for_run.strftime(r'%H')
             dir = self.dir.format(date, time)
-            url = r'{}{}{}{}{}{}'.format(self.host, self.script, file, var, subregion, dir)
+            partial_url = r'{}{}{}{}{}{}'.format(self.host, self.script, file, var, subregion, dir)
             def get_local_name(partial_url):
                 """!
                 Return file name that will be saved locally from partial_url
@@ -87,11 +87,12 @@ class GribLoader(WeatherLoader):
                 logging.debug("Downloading {}".format(out_file))
                 def generate_member(member):
                     member_name = r'ge{}{:02d}'.format('c' if member == 0 else 'p', member)
-                    url = partial_url.format(member_name)
-                    return url
-                urls = map(generate_member, xrange(0, 21))
+                    u = partial_url.format(member_name)
+                    assert('{}' not in u)
+                    return u
+                urls = map(generate_member, xrange(0, self.num_members))
                 results = common.download_many(urls)
-                assert(21 == len(results))
+                assert(self.num_members == len(results))
                 try:
                     # logging.debug("Writing file")
                     with open(out_file, "wb") as f:
@@ -104,8 +105,8 @@ class GribLoader(WeatherLoader):
                 return out_file
             if self.no_download:
                 # return file that would have been saved without actually trying to save it
-                return get_local_name(url)
-            return common.try_save(save_file, url)
+                return get_local_name(partial_url)
+            return common.try_save(save_file, partial_url)
         weather_index = self.indices[name]
         file = get_match_files(weather_index)
         result = common.read_grib(file, weather_index.grib_field)
@@ -301,7 +302,7 @@ class GribLoader(WeatherLoader):
         # return the run that we ended up loading data for
         # HACK: Timestamp format is nicer than datetime's
         return pandas.Timestamp(for_run)
-    def load_records(self, max_retries=5, force=False):
+    def load_records(self, max_retries=15, force=False):
         """!
         Load the latest records using the specified interval to determine run
         @param self Pointer to self
@@ -323,7 +324,7 @@ class GribLoader(WeatherLoader):
                     raise
                 for_run = for_run + datetime.timedelta(hours=-self.interval)
                 logging.error("**** Moving back 1 run since data is unavailable. Now looking for {}".format(for_run.strftime("%Y%m%d%H")))
-    def __init__(self, name, for_days, interval, script, mask, dir, no_download=False, lead_time=6):
+    def __init__(self, name, for_days, interval, script, mask, dir, num_members, no_download=False, lead_time=6):
         """!
         Instantiate class
         @param name Name for weather being loaded
@@ -332,6 +333,7 @@ class GribLoader(WeatherLoader):
         @param script Script in URL to query from
         @param mask Mask to use for making URL to download
         @param dir Subdirectory to download files from
+        #param num_members Number of ensemble members (including control)
         @param no_download Whether or not to not download files
         @param lead_time number of hours run happens before start date within run
         """
@@ -348,3 +350,5 @@ class GribLoader(WeatherLoader):
         self.mask = mask
         ## Subdirectory to download files from
         self.dir = dir
+        ## Number of ensemble members (including control)
+        self.num_members = num_members

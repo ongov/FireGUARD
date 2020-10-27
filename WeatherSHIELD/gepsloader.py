@@ -25,6 +25,7 @@ class GepsLoader(GribLoader):
                                          script=script,
                                          mask=mask,
                                          dir=dir,
+                                         num_members=21,
                                          no_download=no_download)
 
 
