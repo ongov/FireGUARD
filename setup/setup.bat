@@ -154,6 +154,14 @@ call :ensure_file https://sourceforge.net/projects/gnuwin32/files/libintl/0.11.5
 SET LIBICONV_ZIP=libiconv-1.8-1-bin.zip
 call :ensure_file https://sourceforge.net/projects/gnuwin32/files/libiconv/1.8-1/%LIBICONV_ZIP%/download %LIBICONV_ZIP%
 
+@rem HACK: for now download libraries this way
+SET JQUERY=jquery-1.11.3.js
+call :ensure_file https://code.jquery.com/%JQUERY% %JQUERY%
+copy /y %DOWNLOAD_DIR%\%JQUERY% %LOCAL_DIR%\..\WeatherSHIELD\gui\js\%JQUERY%
+SET JQUERY_MIN=jquery-1.11.3.min.js
+call :ensure_file https://code.jquery.com/%JQUERY_MIN% %JQUERY_MIN%
+copy /y %DOWNLOAD_DIR%\%JQUERY_MIN% %LOCAL_DIR%\..\WeatherSHIELD\gui\js\%JQUERY_MIN%
+
 @rem need to install .NET 3.5 so do that first so it doesn't prompt user
 DISM /Online /Enable-Feature /FeatureName:NetFx3 /All
 
