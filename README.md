@@ -13,6 +13,15 @@ FireGUARD (Fire Growth under Uncertainty for Appropriate Response Decision Suppo
 
 All covered works (e.g., copies of this work, derived works) must include a copy of the file (or an updated version of it) that details credits for work up to the time of the original open source release. That file is available [here](ORIGIN.md).
 
+## Active Forks
+
+Please note that:
+- This repository is the original open source version that originated from proprietary, internal work
+- Our intention is to maintain this repository (1) as a record of the original open source version and (2) as a discoverable pointer to the active fork
+- The project is being actively developed in another fork
+- As of 2024-09-24, the active fork is [https://github.com/CWFMF/FireSTARR](https://github.com/CWFMF/FireSTARR)
+- We anticipate that the active fork will soon be split into separate repositories for various components
+
 ## Publications
 
 FireGUARD is published at the following locations:
